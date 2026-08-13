@@ -57,22 +57,24 @@ async def accept_popups(page):
 
 
 async def fill_location(page, city):
-    await accept_popups(page)
+    print("SUCHE EINGABEFELDER", flush=True)
 
-    inputs = [
-        page.get_by_placeholder(re.compile("city|place|stadt|ort|location", re.I)),
-        page.locator('input[type="text"]'),
-        page.locator("input"),
-    ]
+    inputs = await page.locator("input").all()
 
-    for inp in inputs:
+    print(f"Gefundene Inputs: {len(inputs)}", flush=True)
+
+    for i, inp in enumerate(inputs):
         try:
-            await inp.first.fill(city, timeout=5000)
-            break
-        except Exception:
-            continue
-    else:
-        raise RuntimeError("Suchfeld fuer Ort nicht gefunden")
+            placeholder = await inp.get_attribute("placeholder")
+            value = await inp.get_attribute("value")
+            print(
+                f"Input {i}: placeholder={placeholder} value={value}",
+                flush=True
+            )
+        except Exception as e:
+            print(f"Input {i}: Fehler {e}", flush=True)
+
+    raise RuntimeError("DEBUG STOP")
 
     # Autocomplete antriggern und bestaetigen
     await page.wait_for_timeout(1200)
