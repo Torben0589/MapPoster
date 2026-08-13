@@ -1,0 +1,270 @@
+Berlin, Deutschland
+Hamburg, Deutschland
+München, Deutschland
+Köln, Deutschland
+Frankfurt am Main, Deutschland
+Stuttgart, Deutschland
+Düsseldorf, Deutschland
+Leipzig, Deutschland
+Dortmund, Deutschland
+Essen, Deutschland
+Paris, Frankreich
+Marseille, Frankreich
+Lyon, Frankreich
+Toulouse, Frankreich
+Nizza, Frankreich
+Nantes, Frankreich
+Montpellier, Frankreich
+Straßburg, Frankreich
+Bordeaux, Frankreich
+Lille, Frankreich
+Madrid, Spanien
+Barcelona, Spanien
+Valencia, Spanien
+Sevilla, Spanien
+Zaragoza, Spanien
+Málaga, Spanien
+Murcia, Spanien
+Palma, Spanien
+Las Palmas, Spanien
+Bilbao, Spanien
+Rom, Italien
+Mailand, Italien
+Neapel, Italien
+Turin, Italien
+Palermo, Italien
+Genua, Italien
+Bologna, Italien
+Florenz, Italien
+Bari, Italien
+Catania, Italien
+London, Vereinigtes Königreich
+Birmingham, Vereinigtes Königreich
+Glasgow, Vereinigtes Königreich
+Leeds, Vereinigtes Königreich
+Liverpool, Vereinigtes Königreich
+Edinburgh, Vereinigtes Königreich
+Sheffield, Vereinigtes Königreich
+Manchester, Vereinigtes Königreich
+Belfast, Vereinigtes Königreich
+Bristol, Vereinigtes Königreich
+Warschau, Polen
+Krakau, Polen
+Łódź, Polen
+Breslau (Wrocław), Polen
+Posen (Poznań), Polen
+Danzig (Gdańsk), Polen
+Stettin (Szczecin), Polen
+Bydgoszcz, Polen
+Lublin, Polen
+Kattowitz (Katowice), Polen
+Amsterdam, Niederlande
+Rotterdam, Niederlande
+Den Haag, Niederlande
+Utrecht, Niederlande
+Eindhoven, Niederlande
+Tilburg, Niederlande
+Groningen, Niederlande
+Almere, Niederlande
+Breda, Niederlande
+Nijmegen, Niederlande
+Antwerpen, Belgien
+Gent, Belgien
+Charleroi, Belgien
+Brüssel, Belgien
+Lüttich, Belgien
+Brügge, Belgien
+Namur, Belgien
+Leuven, Belgien
+Mons, Belgien
+Aalst, Belgien
+Wien, Österreich
+Graz, Österreich
+Linz, Österreich
+Salzburg, Österreich
+Innsbruck, Österreich
+Zürich, Schweiz
+Genf, Schweiz
+Basel, Schweiz
+Lausanne, Schweiz
+Bern, Schweiz
+Prag, Tschechien
+Brünn, Tschechien
+Ostrava, Tschechien
+Pilsen, Tschechien
+Olomouc, Tschechien
+Liberec, Tschechien
+České Budějovice, Tschechien
+Hradec Králové, Tschechien
+Pardubice, Tschechien
+Ústí nad Labem, Tschechien
+Budapest, Ungarn
+Debrecen, Ungarn
+Szeged, Ungarn
+Miskolc, Ungarn
+Pécs, Ungarn
+Győr, Ungarn
+Nyíregyháza, Ungarn
+Kecskemét, Ungarn
+Székesfehérvár, Ungarn
+Szombathely, Ungarn
+Bukarest, Rumänien
+Cluj-Napoca, Rumänien
+Iași, Rumänien
+Timișoara, Rumänien
+Constanța, Rumänien
+Craiova, Rumänien
+Brașov, Rumänien
+Galați, Rumänien
+Ploiești, Rumänien
+Oradea, Rumänien
+Sofia, Bulgarien
+Plowdiw, Bulgarien
+Varna, Bulgarien
+Burgas, Bulgarien
+Russe, Bulgarien
+Stara Sagora, Bulgarien
+Plewen, Bulgarien
+Sliven, Bulgarien
+Dobritsch, Bulgarien
+Schumen, Bulgarien
+Athen, Griechenland
+Thessaloniki, Griechenland
+Patras, Griechenland
+Heraklion, Griechenland
+Larisa, Griechenland
+Volos, Griechenland
+Ioannina, Griechenland
+Chania, Griechenland
+Kavala, Griechenland
+Kalamata, Griechenland
+Lissabon, Portugal
+Porto, Portugal
+Vila Nova de Gaia, Portugal
+Amadora, Portugal
+Braga, Portugal
+Funchal, Portugal
+Coimbra, Portugal
+Setúbal, Portugal
+Almada, Portugal
+Guimarães, Portugal
+Stockholm, Schweden
+Göteborg, Schweden
+Malmö, Schweden
+Uppsala, Schweden
+Västerås, Schweden
+Örebro, Schweden
+Linköping, Schweden
+Helsingborg, Schweden
+Jönköping, Schweden
+Norrköping, Schweden
+Oslo, Norwegen
+Bergen, Norwegen
+Trondheim, Norwegen
+Stavanger, Norwegen
+Drammen, Norwegen
+Fredrikstad, Norwegen
+Kristiansand, Norwegen
+Tromsø, Norwegen
+Sandnes, Norwegen
+Sarpsborg, Norwegen
+Helsinki, Finnland
+Espoo, Finnland
+Tampere, Finnland
+Vantaa, Finnland
+Oulu, Finnland
+Turku, Finnland
+Jyväskylä, Finnland
+Kuopio, Finnland
+Lahti, Finnland
+Pori, Finnland
+Kopenhagen, Dänemark
+Aarhus, Dänemark
+Odense, Dänemark
+Aalborg, Dänemark
+Esbjerg, Dänemark
+Randers, Dänemark
+Kolding, Dänemark
+Horsens, Dänemark
+Vejle, Dänemark
+Roskilde, Dänemark
+Dublin, Irland
+Cork, Irland
+Galway, Irland
+Limerick, Irland
+Waterford, Irland
+Zagreb, Kroatien
+Split, Kroatien
+Rijeka, Kroatien
+Osijek, Kroatien
+Zadar, Kroatien
+Pula, Kroatien
+Slavonski Brod, Kroatien
+Karlovac, Kroatien
+Varaždin, Kroatien
+Šibenik, Kroatien
+Bratislava, Slowakei
+Košice, Slowakei
+Prešov, Slowakei
+Žilina, Slowakei
+Nitra, Slowakei
+Banská Bystrica, Slowakei
+Trnava, Slowakei
+Trenčín, Slowakei
+Martin, Slowakei
+Poprad, Slowakei
+Ljubljana, Slowenien
+Maribor, Slowenien
+Celje, Slowenien
+Kranj, Slowenien
+Koper, Slowenien
+Vilnius, Litauen
+Kaunas, Litauen
+Klaipėda, Litauen
+Šiauliai, Litauen
+Panevėžys, Litauen
+Riga, Lettland
+Daugavpils, Lettland
+Liepāja, Lettland
+Jelgava, Lettland
+Jūrmala, Lettland
+Tallinn, Estland
+Tartu, Estland
+Narva, Estland
+Pärnu, Estland
+Kohtla-Järve, Estland
+Luxemburg-Stadt, Luxemburg
+Esch-sur-Alzette, Luxemburg
+Differdingen, Luxemburg
+Düdelingen, Luxemburg
+Ettelbrück, Luxemburg
+Reykjavík, Island
+Kópavogur, Island
+Hafnarfjörður, Island
+Akureyri, Island
+Reykjanesbær, Island
+Andorra la Vella, Andorra
+Escaldes-Engordany, Andorra
+Encamp, Andorra
+Sant Julià de Lòria, Andorra
+La Massana, Andorra
+Birkirkara, Malta
+Mosta, Malta
+Qormi, Malta
+Sliema, Malta
+Żabbar, Malta
+Monaco-Ville, Monaco
+Monte-Carlo, Monaco
+La Condamine, Monaco
+Fontvieille, Monaco
+Moneghetti, Monaco
+Serravalle, San Marino
+Borgo Maggiore, San Marino
+San Marino, San Marino
+Domagnano, San Marino
+Fiorentino, San Marino
+Schaan, Liechtenstein
+Vaduz, Liechtenstein
+Triesen, Liechtenstein
+Balzers, Liechtenstein
+Eschen, Liechtenstein
