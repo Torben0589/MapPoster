@@ -19,7 +19,22 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - run: python terraink_batch.py
+      - name: Terraink Debug
+        run: |
+          echo "=== AKTUELLER ORDNER ==="
+          pwd
+
+          echo "=== DATEIEN ==="
+          ls -la
+
+          echo "=== PYTHON VERSION ==="
+          python --version
+
+          echo "=== SYNTAXCHECK ==="
+          python -m py_compile terraink_batch.py
+
+          echo "=== STARTE SCRIPT ==="
+          python -u terraink_batch.py
 
       - uses: actions/upload-artifact@v4
         with:
