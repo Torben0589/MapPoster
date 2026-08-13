@@ -57,7 +57,6 @@ async def accept_popups(page):
 
 
 async def fill_location(page, city):
-
     print("FUELLE ORTSFELD", flush=True)
 
     await page.locator("input.startup-location-input").first.fill(city, timeout=10000)
@@ -118,19 +117,19 @@ async def download_result(page, city, theme):
 
     download = await download_info.value
     await download.save_as(target)
-    print(f"OK: {target.name}")
+    print(f"OK: {target.name}", flush=True)
 
 
 async def main():
     print("MAIN STARTET", flush=True)
-    
+
     cities = read_list("CITY_LIST", "staedte.txt")
     themes = read_list("THEME_LIST", "themes.txt")
     print(
         f"Start: {len(cities)} Staedte x {len(themes)} Themes = {len(cities) * len(themes)} Downloads",
         flush=True
     )
-    
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=HEADLESS,
@@ -145,7 +144,7 @@ async def main():
 
         for city in cities:
             for theme in themes:
-                print(f"Bearbeite: {city} | {theme}")
+                print(f"Bearbeite: {city} | {theme}", flush=True)
                 try:
                     await page.goto(START_URL, wait_until="domcontentloaded", timeout=45000)
                     await page.wait_for_timeout(2500)
@@ -154,14 +153,14 @@ async def main():
                     await choose_theme(page, theme)
                     await download_result(page, city, theme)
                 except PlaywrightTimeoutError as exc:
-                    print(f"TIMEOUT: {city} | {theme}: {exc}")
+                    print(f"TIMEOUT: {city} | {theme}: {exc}", flush=True)
                 except Exception as exc:
-                    print(f"FEHLER: {city} | {theme}: {exc}")
+                    print(f"FEHLER: {city} | {theme}: {exc}", flush=True)
 
         await context.close()
         await browser.close()
 
-    print("Fertig. Dateien liegen in terraink_downloads.")
+    print("Fertig. Dateien liegen in terraink_downloads.", flush=True)
 
 
 if __name__ == "__main__":
