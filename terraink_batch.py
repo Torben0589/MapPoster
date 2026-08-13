@@ -57,26 +57,15 @@ async def accept_popups(page):
 
 
 async def fill_location(page, city):
-    print("FUELLE ORTSFELD", flush=True)
 
-    await page.locator("input.startup-location-input").first.fill(city, timeout=10000)
+    print("SEITENTITEL:", await page.title(), flush=True)
 
-    await page.wait_for_timeout(1500)
+    html = await page.content()
 
-    print("BESTAETIGE ORT", flush=True)
+    print(html[:5000], flush=True)
 
-    # Autocomplete-Vorschlag auswaehlen, falls vorhanden
-    try:
-        await page.keyboard.press("ArrowDown")
-        await page.keyboard.press("Enter")
-        await page.wait_for_timeout(1000)
-    except Exception:
-        pass
+    raise RuntimeError("HTML DEBUG")
 
-    # OK-Button im Startdialog klicken
-    await page.locator("button.startup-location-action--confirm").first.click(timeout=10000)
-
-    await page.wait_for_timeout(AFTER_LOCATION_WAIT_MS)
 
 
 async def choose_layout_defaults(page):
