@@ -5,6 +5,8 @@ import sys
 from pathlib import Path
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
+print("SCRIPT STARTET", flush=True)
+
 START_URL = "https://terraink.app/"
 BASE = Path(__file__).resolve().parent
 OUT_DIR = BASE / "terraink_downloads"
@@ -131,10 +133,15 @@ async def download_result(page, city, theme):
 
 
 async def main():
+    print("MAIN STARTET", flush=True)
+    
     cities = read_list("CITY_LIST", "staedte.txt")
     themes = read_list("THEME_LIST", "themes.txt")
-    print(f"Start: {len(cities)} Staedte x {len(themes)} Themes = {len(cities) * len(themes)} Downloads")
-
+    print(
+        f"Start: {len(cities)} Staedte x {len(themes)} Themes = {len(cities) * len(themes)} Downloads",
+        flush=True
+    )
+    
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=HEADLESS,
