@@ -57,24 +57,22 @@ async def accept_popups(page):
 
 
 async def fill_location(page, city):
-    print("SUCHE EINGABEFELDER", flush=True)
+    print("KLICKE CHOOSE LOCATION", flush=True)
 
-    inputs = await page.locator("input").all()
+    await page.get_by_text("Choose Location").click()
 
-    print(f"Gefundene Inputs: {len(inputs)}", flush=True)
+    await page.wait_for_timeout(2000)
 
-    for i, inp in enumerate(inputs):
-        try:
-            placeholder = await inp.get_attribute("placeholder")
-            value = await inp.get_attribute("value")
-            print(
-                f"Input {i}: placeholder={placeholder} value={value}",
-                flush=True
-            )
-        except Exception as e:
-            print(f"Input {i}: Fehler {e}", flush=True)
+    print("FUELLE SUCHFELD", flush=True)
 
-    raise RuntimeError("DEBUG STOP")
+    await page.locator("input").last.fill(city)
+
+    await page.wait_for_timeout(1500)
+
+    await page.keyboard.press("ArrowDown")
+    await page.keyboard.press("Enter")
+
+    await page.wait_for_timeout(5000)
 
     # Autocomplete antriggern und bestaetigen
     await page.wait_for_timeout(1200)
